@@ -1,5 +1,7 @@
 ¿Qué es una Estructura de Datos?
-Es una forma específica de organizar y almacenar datos para que puedan ser utilizados de manera eficiente. Su propósito fundamental es permitir operaciones como búsquedas, inserciones, eliminaciones y actualizaciones de forma rápida. Las computadoras logran esto organizando los bits y bytes en la memoria RAM o discos duros bajo estos esquemas estructurales.
+Es una forma específica de organizar y almacenar datos para que puedan ser utilizados de manera eficiente. 
+Su propósito fundamental es permitir operaciones como búsquedas, inserciones, eliminaciones y actualizaciones de forma rápida. 
+Las computadoras logran esto organizando los bits y bytes en la memoria RAM o discos duros bajo estos esquemas estructurales.
 
 Clasificación de las Estructuras de Datos
 1. Estructuras Estáticas
