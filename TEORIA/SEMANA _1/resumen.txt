@@ -1,1 +1,25 @@
+¿Qué es una Estructura de Datos?
+Es una forma específica de organizar y almacenar datos para que puedan ser utilizados de manera eficiente. Su propósito fundamental es permitir operaciones como búsquedas, inserciones, eliminaciones y actualizaciones de forma rápida. Las computadoras logran esto organizando los bits y bytes en la memoria RAM o discos duros bajo estos esquemas estructurales.
 
+Clasificación de las Estructuras de Datos
+1. Estructuras Estáticas
+Su tamaño y organización se definen al momento de la compilación y no cambian mientras el programa corre.
+•	Arrays (Arreglos): Colección de elementos del mismo tipo identificados por un índice.
+•	Matrices: Extensión de los arrays a dos o más dimensiones.
+
+2. Estructuras Dinámicas Lineales
+Permiten que su tamaño y organización cambien durante la ejecución, organizando los elementos de forma secuencial.
+•	Listas enlazadas: Nodos que contienen un dato y una referencia al siguiente nodo.
+•	Pilas (Stacks): Siguen el principio LIFO (el último en entrar es el primero en salir).
+•	Colas (Queues): Siguen el principio FIFO (el primero en entrar es el primero en salir).
+
+3. Estructuras Dinámicas No Lineales
+No siguen una secuencia lineal, permitiendo representar relaciones complejas y jerárquicas.
+•	Árboles (Trees): Estructuras jerárquicas; un ejemplo común es el árbol binario (máximo dos hijos por nodo).
+•	Grafos (Graphs): Conjunto de nodos conectados por aristas, que pueden ser dirigidos o no.
+•	Tablas Hash: Asocian claves a valores mediante una función hash para un acceso rápido.
+
+Utilidad e Importancia
+•	Eficiencia: Determinan qué tan rápido un programa puede manipular datos.
+•	Resolución de Problemas: Las estructuras no lineales facilitan la solución de problemas complejos gracias a su organización interconectada o jerárquica.
+•	Optimización: La elección de la estructura correcta impacta directamente en la velocidad de las operaciones de búsqueda e inserción.
