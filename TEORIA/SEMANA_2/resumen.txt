@@ -1,1 +1,28 @@
+Las estructuras de datos estáticas son aquellas cuyo tamaño se define al inicio y 
+no cambia durante la ejecución del programa. El ejemplo más representativo son los arreglos unidimensionales.
 
+1. Importancia de los arreglos
+Permiten almacenar datos homogéneos (del mismo tipo).
+Ofrecen acceso rápido mediante índices (tiempo constante).
+Usan memoria de forma eficiente gracias a su estructura contigua.
+Son ideales para operaciones simples como:
+Sumar elementos
+Recorrer datos fácilmente
+
+2. Operaciones básicas en arreglos
+Inserción:
+No se puede agregar directamente (tamaño fijo), pero se simula desplazando elementos.
+Actualización:
+Se modifica un valor accediendo directamente a su índice.
+Eliminación:
+Se elimina un elemento moviendo los demás hacia la izquierda.
+Recorrido:
+Se realiza usando bucles para acceder a todos los elementos.
+Copia:
+Consiste en crear un nuevo arreglo con los mismos valores.
+
+3. Ventajas frente a otras estructuras
+Más eficientes que listas enlazadas en:
+Uso de memoria
+Velocidad de acceso
+Mejor rendimiento por el cache de CPU debido a la memoria contigua
