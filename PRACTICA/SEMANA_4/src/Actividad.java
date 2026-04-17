@@ -49,6 +49,24 @@ public class Actividad {
             for (int j = 0; j < 2; j++) {
                 transpuesta[j][i] = A[i][j];
             }
-        }        
-    }   
+        }
+        
+        System.out.println("\nSuma:");
+        mostrar(suma);
+
+        System.out.println("\nMultiplicación:");
+        mostrar(mult);
+
+        System.out.println("\nTranspuesta:");
+        mostrar(transpuesta);        
+    }
+    
+    public static void mostrar(int m[][]) {
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m[i].length; j++) {
+                System.out.print(m[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }    
 }
