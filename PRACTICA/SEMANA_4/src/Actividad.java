@@ -13,10 +13,42 @@ public class Actividad {
         
         System.out.println("Matriz triangular (solo parte útil):");
         for (int i = 0; i < triangular.length; i++) {
-            for (int j = 0; j <= i; j++) { // solo parte inferior
+            for (int j = 0; j <= i; j++) { 
                 System.out.print(triangular[i][j] + " ");
             }
             System.out.println();
+        }
+
+        int B[][] = {
+            {5, 6},
+            {7, 8}
+        };
+
+        int suma[][] = new int[2][2];
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                suma[i][j] = A[i][j] + B[i][j];
+            }
+        }
+
+        int mult[][] = new int[2][2];
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                mult[i][j] = 0;
+                for (int k = 0; k < 2; k++) {
+                    mult[i][j] += A[i][k] * B[k][j];
+                }
+            }
+        }
+
+        int transpuesta[][] = new int[2][2];
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                transpuesta[j][i] = A[i][j];
+            }
         }        
     }   
 }
