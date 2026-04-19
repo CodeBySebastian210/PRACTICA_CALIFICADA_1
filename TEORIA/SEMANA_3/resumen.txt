@@ -4,15 +4,15 @@ Facilitan el acceso rápido y ordenado
 Son útiles para organizar y manipular información eficientemente
 
 2. Operaciones principales
-✅ Comparación de arreglos
+- Comparación de arreglos
 Se hace elemento por elemento
 Dos arreglos son iguales si:
 Tienen la misma longitud
 Sus elementos correspondientes son idénticos
-✅ Clonación de arreglos
+- Clonación de arreglos
 Consiste en crear una copia exacta
 Permite trabajar con el nuevo arreglo sin afectar el original
-✅ Fusión de arreglos
+- Fusión de arreglos
 Une dos o más arreglos en uno solo
 Generalmente se realiza mediante concatenación
 
