@@ -1,1 +1,29 @@
+1. Arreglos Bidimensionales
+Los arreglos bidimensionales (matrices) son estructuras que organizan datos en filas y columnas, permitiendo representar información más compleja que los arreglos simples.
 
+2. Tipos de matrices
+- Matrices cuadradas
+Tienen el mismo número de filas y columnas
+- Matrices triangulares
+Triangular inferior:
+Elementos arriba de la diagonal principal son 0
+Triangular superior:
+Elementos debajo de la diagonal principal son 0
+- Matriz tridiagonal
+Solo tiene valores en:
+Diagonal principal
+Diagonal superior inmediata
+Diagonal inferior inmediata
+Permite ahorrar memoria
+- Matrices simétricas y asimétricas
+Simétrica:
+Es igual a su transpuesta
+(matriz[i][j] = matriz[j][i])
+Asimétrica:
+No cumple esa propiedad
+3. Importancia y utilidad
+Permiten resolver problemas más complejos (matemáticos y computacionales)
+Optimizan:
+Memoria (ej: tridiagonales)
+Cálculos (ej: simétricas)
+Facilitan el manejo de datos estructurados en dos dimensiones
